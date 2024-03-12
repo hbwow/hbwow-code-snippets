@@ -1,0 +1,41 @@
+{
+  "name": "hbwow-code-snippets",
+  "displayName": "hbwow code snippets",
+  "version": "0.0.1",
+  "description": "code snippets",
+  "author": "hbwow",
+  "repository": "",
+  "icon": "assets/icon.png",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.24.0"
+  }
+}
