@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "code snippets",
   "author": "hbwow",
-  "repository": "",
+  "repository": "https://github.com/hbwow/hbwow-code-snippets",
   "icon": "assets/icon.png",
   "scripts": {
     "build": "vsce package"
