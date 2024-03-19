@@ -4,11 +4,10 @@
   "version": "0.0.1",
   "description": "code snippets",
   "author": "hbwow",
+  "publisher": "hbwow",
   "repository": "https://github.com/hbwow/hbwow-code-snippets",
   "icon": "assets/icon.png",
-  "scripts": {
-    "build": "vsce package"
-  },
+  "scripts": {},
   "engines": {
     "vscode": "^1.87.0"
   },
@@ -35,7 +34,5 @@
       }
     ]
   },
-  "devDependencies": {
-    "@vscode/vsce": "^2.24.0"
-  }
+  "devDependencies": {}
 }
